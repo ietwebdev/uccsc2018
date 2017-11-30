@@ -1,0 +1,30 @@
+uuid: 04cd1fe4-74cf-4e9e-9f95-ea1b68295e5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sf_content_audit
+    - node.type.sf_photo_gallery
+  module:
+    - content_audit
+_core:
+  default_config_hash: 0oBJny95VPNmhgZt8pCO2ElMiGly_e_sVaZ4r_y0PYA
+id: node.sf_photo_gallery.field_sf_content_audit
+field_name: field_sf_content_audit
+entity_type: node
+bundle: sf_photo_gallery
+label: 'Content Audit'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    audit_status: None
+    audit_action: 'Leave As-is'
+    audit_notes: ''
+    audit_mark_review: 0
+    audit_review_by_date: ''
+    audit_reviewer: null
+default_value_callback: ''
+settings: {  }
+field_type: content_audit

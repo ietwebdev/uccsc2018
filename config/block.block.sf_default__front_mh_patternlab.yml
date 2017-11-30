@@ -1,0 +1,37 @@
+uuid: 96066598-4457-42ec-a10c-264a1b7c91cf
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_style_plugins
+    - system
+  theme:
+    - sitefarm_one
+third_party_settings:
+  block_style_plugins:
+    brand_colors:
+      branding_color: category-brand--western-redbud
+    sibling_grid:
+      sibling_grid: l-sibling-grid--half
+_core:
+  default_config_hash: dT8LUqKH6oC_EQgNDn3t4K5c69VPpyl6vNkwyiWGdQY
+id: sf_default__front_mh_patternlab
+theme: sitefarm_one
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:390add4a-a8b9-4f88-85dc-4665ce64a763'
+settings:
+  id: 'block_content:390add4a-a8b9-4f88-85dc-4665ce64a763'
+  label: 'Marketing Highlight - Default Pattern Lab'
+  provider: block_content
+  label_display: ''
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

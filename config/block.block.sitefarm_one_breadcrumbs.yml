@@ -1,0 +1,22 @@
+uuid: fdc1db7e-ccf6-4815-8804-c0dd04e300ed
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sitefarm_one
+_core:
+  default_config_hash: 02J2hlbfqCN6OUxgUQVTomAgDyLX97ZXG2TrveWzpTA
+id: sitefarm_one_breadcrumbs
+theme: sitefarm_one
+region: pre_content
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

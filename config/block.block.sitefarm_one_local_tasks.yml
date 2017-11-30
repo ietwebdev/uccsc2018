@@ -1,0 +1,22 @@
+uuid: d046aaa3-8ede-4abf-900b-6841d84aebd3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - sitefarm_one
+_core:
+  default_config_hash: 60o5j6lKAprfFAKHQTgwcj7_86xkhjJ8EugMuAuDzFc
+id: sitefarm_one_local_tasks
+theme: sitefarm_one
+region: pre_content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

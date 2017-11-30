@@ -1,0 +1,46 @@
+uuid: ef236cd7-14cf-4536-99bd-b4c372d35f52
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.sf_branding.field_sf_brand_color
+    - taxonomy.vocabulary.sf_branding
+  module:
+    - path
+    - text
+_core:
+  default_config_hash: '-s62hmglL5RO4ZCvfo-D0UqM9IJhdUskV-keUrAD2yg'
+id: taxonomy_term.sf_branding.default
+targetEntityType: taxonomy_term
+bundle: sf_branding
+mode: default
+content:
+  description:
+    type: text_textarea
+    weight: 2
+    settings:
+      placeholder: ''
+      rows: 5
+    third_party_settings: {  }
+    region: content
+  field_sf_brand_color:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  path:
+    type: path
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

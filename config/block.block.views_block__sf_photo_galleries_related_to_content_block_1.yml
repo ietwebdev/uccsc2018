@@ -1,0 +1,36 @@
+uuid: d5f2fba1-81f0-498e-9394-aed8fbf168a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.sf_photo_galleries_related_to_content
+  module:
+    - ctools
+    - views
+  theme:
+    - sitefarm_one
+_core:
+  default_config_hash: uLBgs-w-0H5f1smnS4T0vRmN4mV1YghAE4Q6adsbLsI
+id: views_block__sf_photo_galleries_related_to_content_block_1
+theme: sitefarm_one
+region: sidebar_second
+weight: -4
+provider: null
+plugin: 'views_block:sf_photo_galleries_related_to_content-block_1'
+settings:
+  id: 'views_block:sf_photo_galleries_related_to_content-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      sf_article: sf_article
+      sf_event: sf_event
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

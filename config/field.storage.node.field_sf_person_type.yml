@@ -1,0 +1,22 @@
+uuid: d4c5f22b-01b3-472b-9e06-1c83e83507ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: W9m3Wx-ZaG7V6bE0BuK-zHroFn_9vhNfIrl4JD3Ysu8
+id: node.field_sf_person_type
+field_name: field_sf_person_type
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

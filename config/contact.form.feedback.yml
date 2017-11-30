@@ -1,0 +1,14 @@
+uuid: f18ba88d-a7d6-4b33-8970-24aa337997d6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - sgdearmond@ucdavis.edu
+reply: ''
+weight: 0
+message: null
+redirect: null

@@ -1,0 +1,21 @@
+uuid: 245283fa-e4b3-41dc-96b3-982f6f8067d0
+langcode: en
+status: true
+dependencies:
+  module:
+    - address
+    - node
+_core:
+  default_config_hash: F5MyWQU10o01PNIJeF6U4-texQomaMpJwnTjX7rblWc
+id: node.field_sf_address
+field_name: field_sf_address
+entity_type: node
+type: address
+settings: {  }
+module: address
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,34 @@
+uuid: d532d878-4d1b-43fa-8904-6c7c8af32968
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - ctools
+    - system
+  theme:
+    - sitefarm_one
+_core:
+  default_config_hash: W8MSnJvI3Rypned93fcSzH3f1GkrniguSfDUm0VHCn0
+id: sub_main_menu
+theme: sitefarm_one
+region: sidebar_second
+weight: -4
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Sub Main Menu'
+  provider: system
+  label_display: '0'
+  level: 2
+  depth: 0
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      sf_page: sf_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,23 @@
+uuid: 2d38b61b-e25f-4ceb-8d1a-122af60d09bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: fJlHR5o804Wcc3OJ4CPMgf9FLLROD2z-EBbzKhounGc
+id: node.field_sf_middle_initial
+field_name: field_sf_middle_initial
+entity_type: node
+type: string
+settings:
+  max_length: 50
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

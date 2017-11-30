@@ -1,0 +1,32 @@
+uuid: e47bc56f-ed9a-4dd0-8601-5f9bbb5efb9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.sf_articles_category_filter
+  module:
+    - system
+    - views
+  theme:
+    - sitefarm_one
+_core:
+  default_config_hash: hQo74Hzr6WdmIef35JCoI_46SfJdoJaJOT20_R4oXTE
+id: views_block__sf_articles_category_filter_block_2
+theme: sitefarm_one
+region: sidebar_second
+weight: -9
+provider: null
+plugin: 'views_block:sf_articles_category_filter-block_2'
+settings:
+  id: 'views_block:sf_articles_category_filter-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/blog\r\n/blog/*"
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,11 @@
+uuid: e53cfe3f-091e-44a9-9217-4b6e9c77a958
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: x5fpMj3dMrS1EDOhiN1D1XLHbgTSPNTNFNesSNpFn2I
+name: Branding
+vid: sf_branding
+description: 'Campus branding colors'
+hierarchy: 0
+weight: 0
