@@ -22,6 +22,7 @@
     }
   },
   "require": {
+    "badcamp/badcamp_sponsors": "dev-master",
     "composer/installers": "^1.0.20",
     "cweagans/composer-patches": "1.*",
     "drupal-composer/drupal-scaffold": "^2.0.1",
