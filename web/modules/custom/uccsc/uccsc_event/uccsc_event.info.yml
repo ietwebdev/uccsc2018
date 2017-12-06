@@ -1,0 +1,28 @@
+name: Event
+description: "Provides Event content type and related configuration. An <em>Event</em> is a summit, training, party, or other non-session activity.\r\n"
+type: module
+core: 8.x
+dependencies:
+  - badcamp_content
+  - badcamp_sponsors
+  - better_exposed_filters
+  - daterange_compact
+  - datetime
+  - datetime_range
+  - empty_fields
+  - eva
+  - field
+  - field_group
+  - field_permissions
+  - file
+  - flag
+  - image
+  - menu_ui
+  - node
+  - path
+  - taxonomy
+  - text
+  - user
+  - views
+version: 8.x-1.x
+package: uccsc
