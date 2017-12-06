@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "87adce3344de22a738bb2cf858b85844",
+    "content-hash": "6dd2882367c15c832ba2393cb627f6c4",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -121,32 +121,6 @@
                 "stack"
             ],
             "time": "2017-04-11T20:03:41+00:00"
-        },
-        {
-            "name": "badcamp/badcamp_sponsors",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/badcamp/badcamp_sponsors.git",
-                "reference": "044119c7b61ca637a0fc8cee4e27f5967a9e92d8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/badcamp/badcamp_sponsors/zipball/044119c7b61ca637a0fc8cee4e27f5967a9e92d8",
-                "reference": "044119c7b61ca637a0fc8cee4e27f5967a9e92d8",
-                "shasum": ""
-            },
-            "type": "drupal-module",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "description": "A Features module that contains all of the configuration related to sponsors.",
-            "homepage": "https://github.com/badcamp/badcamp_sponsors",
-            "keywords": [
-                "drupal"
-            ],
-            "time": "2017-07-18T22:35:27+00:00"
         },
         {
             "name": "commerceguys/addressing",
@@ -10296,7 +10270,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "badcamp/badcamp_sponsors": 20,
         "ucdavis/sitefarm": 20,
         "ucdavis/sitefarm_one": 20
     },
