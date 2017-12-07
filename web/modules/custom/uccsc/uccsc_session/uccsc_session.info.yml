@@ -3,8 +3,7 @@ description: 'Provides Session content type and related configuration. <em>Sessi
 type: module
 core: 8.x
 dependencies:
-  - badcamp_content
-  - badcamp_sponsors
+  - uccsc_sponsors
   - datetime_range
   - empty_fields
   - field

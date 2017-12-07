@@ -3,8 +3,7 @@ description: "Provides Event content type and related configuration. An <em>Even
 type: module
 core: 8.x
 dependencies:
-  - badcamp_content
-  - badcamp_sponsors
+  - uccsc_sponsors
   - better_exposed_filters
   - daterange_compact
   - datetime
