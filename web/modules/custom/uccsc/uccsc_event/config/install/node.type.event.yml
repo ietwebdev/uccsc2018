@@ -10,7 +10,7 @@ third_party_settings:
     parent: 'main:'
 name: Event
 type: event
-description: "An <em>Event</em> is a summit, training, party, or other non-session activity.\r\n"
+description: "An <em>Event</em> is a summit, meeting, workshop, party, or other non-session activity.\r\n"
 help: ''
 new_revision: false
 preview_mode: 1

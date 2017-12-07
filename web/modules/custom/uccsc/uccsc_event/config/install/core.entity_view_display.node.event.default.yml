@@ -15,7 +15,6 @@ dependencies:
     - field.field.node.event.field_summit_leaders
     - node.type.event
   module:
-    - badcamp_content
     - text
     - user
 id: node.event.default

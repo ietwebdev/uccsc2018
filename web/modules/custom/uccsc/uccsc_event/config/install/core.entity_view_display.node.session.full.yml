@@ -2,6 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - field.field.node.session.field_event_date_and_time
     - field.field.node.session.field_event_sponsors
     - field.field.node.session.field_event_venue
@@ -14,20 +15,21 @@ dependencies:
     - field.field.node.session.field_video
     - node.type.session
   module:
-    - badcamp_content
+    - empty_fields
     - file
-    - options
     - text
     - user
     - video_embed_field
-id: node.session.default
+id: node.session.full
 targetEntityType: node
 bundle: session
-mode: default
+mode: full
 content:
   field_event_date_and_time:
-    weight: 7
-    label: above
+    type: daterange_modified
+    weight: 6
+    region: content
+    label: hidden
     settings:
       timezone_override: ''
       format_type: medium
@@ -35,33 +37,35 @@ content:
       same_date_date_format: date_only
       same_date_time_format: time_only
     third_party_settings: {  }
-    type: daterange_modified
-    region: content
   field_event_sponsors:
-    weight: 11
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
-  field_event_venue:
+    type: entity_reference_entity_view
     weight: 8
-    label: above
+    region: content
+    label: hidden
+    settings:
+      view_mode: image_only
+      link: false
+    third_party_settings:
+      empty_fields:
+        handler: ''
+        empty_text: ''
+  field_event_venue:
+    type: entity_reference_label
+    weight: 1
+    region: content
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
-    type: entity_reference_label
-    region: content
   field_session_description:
-    weight: 4
-    label: above
+    weight: 5
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_session_files:
-    weight: 6
+    weight: 7
     label: above
     settings: {  }
     third_party_settings: {  }
@@ -69,43 +73,36 @@ content:
     region: content
   field_session_skill_level:
     weight: 3
-    label: above
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
     region: content
   field_session_speakers:
-    weight: 1
-    label: above
+    weight: 4
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  field_session_status:
-    weight: 9
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: list_default
-    region: content
   field_session_track:
     weight: 2
-    label: above
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
     region: content
   field_video:
-    weight: 5
-    label: above
+    weight: 0
+    label: hidden
     settings:
       responsive: true
       width: 854
       height: 480
-      autoplay: true
+      autoplay: false
     third_party_settings: {  }
     type: video_embed_field_video
     region: content
@@ -115,8 +112,9 @@ content:
     settings: {  }
     third_party_settings: {  }
   links:
-    weight: 0
+    weight: 9
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_session_status: true

@@ -7,7 +7,6 @@ dependencies:
     - flag.flag.add_to_schedule
     - taxonomy.vocabulary.session_track
   module:
-    - badcamp_content
     - better_exposed_filters
     - daterange_compact
     - datetime
@@ -625,7 +624,7 @@ display:
           field_api_classes: false
           plugin_id: field
       css_class: schedule
-      title: 'BADCamp 2017 Schedule'
+      title: 'Schedule'
     cache_metadata:
       max-age: -1
       contexts:

@@ -3,7 +3,6 @@ description: 'Provides Sponsor content type and related configuration. A generou
 type: module
 core: 8.x
 dependencies:
-  - uccsc_sponsors
   - block
   - ctools
   - eva

@@ -1,8 +1,9 @@
 name: Event
-description: "Provides Event content type and related configuration. An <em>Event</em> is a summit, training, party, or other non-session activity.\r\n"
+description: 'Provides Venue, Event, and Session content types and related configuration. A <em>Venue</em> is a location where an event or session will take place. An <em>Event</em> is a tour, meeting, workshop, party, or other non-session activity. <em>Sessions</em> are talks given by individuals.'
 type: module
 core: 8.x
 dependencies:
+  - address
   - uccsc_sponsors
   - better_exposed_filters
   - daterange_compact
@@ -15,13 +16,16 @@ dependencies:
   - field_permissions
   - file
   - flag
+  - geolocation
   - image
   - menu_ui
   - node
+  - options
   - path
   - taxonomy
   - text
   - user
+  - video_embed_field
   - views
 version: 8.x-1.x
 package: uccsc

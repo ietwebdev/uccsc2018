@@ -6,7 +6,6 @@ label: 'Add to Schedule'
 bundles:
   - event
   - session
-  - training
 entity_type: node
 global: false
 weight: 0

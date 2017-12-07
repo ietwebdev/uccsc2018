@@ -1,10 +1,8 @@
 bundle: uccsc
 excluded:
-  - core.entity_view_display.node.event.summit
-  - field.field.node.event.field_summit_leaders
+  - core.base_field_override.node.event.promote
   - field.field.node.training.field_event_date_and_time
   - field.field.node.training.field_event_sponsors
-  - field.storage.node.field_summit_leaders
   - views.view.summits
   - views.view.summit_attendees
   - core.entity_view_mode.node.summit
