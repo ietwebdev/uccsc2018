@@ -17,7 +17,7 @@ terminus -n build:env:create "$TERMINUS_SITE.dev" "$TERMINUS_ENV" --yes --clone-
 terminus -n drush "$TERMINUS_SITE.$TERMINUS_ENV" -- updatedb -y
 
 # If exported configuration is available, then import it.
-if [ -f "config/system.site.yml" ] ; then
-  # For now, we're just building the uccsc Feature. Don't import config.
+# For now, we're just building the uccsc Feature. Don't import config.
+# if [ -f "config/system.site.yml" ] ; then
   # terminus -n drush "$TERMINUS_SITE.$TERMINUS_ENV" -- config-import --yes
-fi
+# fi
