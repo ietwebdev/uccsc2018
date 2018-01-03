@@ -24,6 +24,7 @@ dependencies:
   - system
   - taxonomy
   - text
+  - uccsc_event
   - uccsc_sponsors
   - user
   - video_embed_field

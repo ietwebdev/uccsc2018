@@ -18,6 +18,7 @@ dependencies:
     - empty_fields
     - file
     - text
+    - uccsc_event
     - user
     - video_embed_field
 id: node.session.full

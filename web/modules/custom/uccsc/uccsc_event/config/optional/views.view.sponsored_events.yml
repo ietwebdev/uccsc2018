@@ -3,9 +3,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.schedule
-    - field.storage.node.field_event_date_and_time
   module:
-    - daterange_compact
     - eva
     - node
     - user
@@ -255,13 +253,11 @@ display:
     cache_metadata:
       max-age: -1
       contexts:
-        - 'languages:language_content'
         - 'languages:language_interface'
         - url
         - 'user.node_grants:view'
         - user.permissions
-      tags:
-        - 'config:field.storage.node.field_event_date_and_time'
+      tags: {  }
   entity_view_1:
     display_plugin: entity_view
     id: entity_view_1
@@ -278,10 +274,8 @@ display:
     cache_metadata:
       max-age: -1
       contexts:
-        - 'languages:language_content'
         - 'languages:language_interface'
         - url
         - 'user.node_grants:view'
         - user.permissions
-      tags:
-        - 'config:field.storage.node.field_event_date_and_time'
+      tags: {  }

@@ -16,6 +16,7 @@ dependencies:
     - node.type.event
   module:
     - text
+    - uccsc_event
     - user
 id: node.event.default
 targetEntityType: node
