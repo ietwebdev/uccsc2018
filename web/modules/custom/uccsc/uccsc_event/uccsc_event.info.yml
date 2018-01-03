@@ -4,7 +4,6 @@ type: module
 core: 8.x
 dependencies:
   - address
-  - uccsc_sponsors
   - better_exposed_filters
   - daterange_compact
   - datetime
@@ -22,8 +21,10 @@ dependencies:
   - node
   - options
   - path
+  - system
   - taxonomy
   - text
+  - uccsc_sponsors
   - user
   - video_embed_field
   - views

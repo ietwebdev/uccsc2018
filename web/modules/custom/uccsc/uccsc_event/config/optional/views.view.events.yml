@@ -5,14 +5,10 @@ dependencies:
     - core.entity_view_mode.node.schedule
     - field.storage.node.field_event_date_and_time
     - node.type.event
-    - taxonomy.vocabulary.event_type
-  content:
-    - 'taxonomy_term:event_type:b76b00fd-af9d-4b2f-803e-5b7d565ba0cb'
   module:
     - daterange_compact
     - datetime
     - node
-    - taxonomy
     - user
 id: events
 label: Events
@@ -200,50 +196,6 @@ display:
             group_items: {  }
           plugin_id: datetime
           entity_type: node
-        field_event_type_target_id:
-          id: field_event_type_target_id
-          table: node__field_event_type
-          field: field_event_type_target_id
-          relationship: none
-          group_type: group
-          admin_label: ''
-          operator: or
-          value:
-            61: 61
-          group: 1
-          exposed: false
-          expose:
-            operator_id: ''
-            label: ''
-            description: ''
-            use_operator: false
-            operator: ''
-            identifier: ''
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-            reduce: false
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          reduce_duplicates: false
-          type: select
-          limit: true
-          vid: event_type
-          hierarchy: false
-          error_message: true
-          plugin_id: taxonomy_index_tid
       sorts:
         field_event_date_and_time_value:
           id: field_event_date_and_time_value
@@ -270,7 +222,6 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
@@ -282,13 +233,12 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: events/parties
+      path: social-events
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
