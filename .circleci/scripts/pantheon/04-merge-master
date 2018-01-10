@@ -18,7 +18,8 @@ terminus -n drush $TERMINUS_SITE.dev -- updatedb --yes
 
 # If there are any exported configuration files, then import them
 if [ -f "config/system.site.yml" ] ; then
-  terminus -n drush "$TERMINUS_SITE.dev" -- config-import --yes
+  # TODO: Re-enable this when site is live.
+  # terminus -n drush "$TERMINUS_SITE.dev" -- config-import --yes
 fi
 
 # Delete old multidev environments associated with a PR that has been
