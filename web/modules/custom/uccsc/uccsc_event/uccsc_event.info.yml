@@ -21,6 +21,7 @@ dependencies:
   - node
   - options
   - path
+  - pathauto
   - system
   - taxonomy
   - text
