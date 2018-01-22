@@ -1,0 +1,21 @@
+name: 'UCCSC User'
+description: 'User Profile fields.'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - block_content
+  - block_style_plugins
+  - empty_fields
+  - field
+  - field_group
+  - field_permissions
+  - file
+  - image
+  - path
+  - system
+  - telephone
+  - user
+  - views
+version: 8.x-1.x
+package: uccsc
