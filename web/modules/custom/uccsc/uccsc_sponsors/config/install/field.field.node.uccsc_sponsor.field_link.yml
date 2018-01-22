@@ -3,13 +3,13 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_link
-    - node.type.badcamp_sponsor
+    - node.type.uccsc_sponsor
   module:
     - link
-id: node.badcamp_sponsor.field_link
+id: node.uccsc_sponsor.field_link
 field_name: field_link
 entity_type: node
-bundle: badcamp_sponsor
+bundle: uccsc_sponsor
 label: Link
 description: ''
 required: false
@@ -18,5 +18,5 @@ default_value: {  }
 default_value_callback: ''
 settings:
   link_type: 17
-  title: 1
+  title: 0
 field_type: link

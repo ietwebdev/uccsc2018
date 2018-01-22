@@ -267,7 +267,7 @@ display:
       display_extenders: {  }
       entity_type: node
       bundles:
-        - badcamp_sponsor
+        - uccsc_sponsor
       show_title: true
       display_description: ''
       title: 'Where We Will Be At'

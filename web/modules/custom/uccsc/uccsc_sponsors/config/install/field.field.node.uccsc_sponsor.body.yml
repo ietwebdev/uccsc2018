@@ -3,13 +3,13 @@ status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.badcamp_sponsor
+    - node.type.uccsc_sponsor
   module:
     - text
-id: node.badcamp_sponsor.body
+id: node.uccsc_sponsor.body
 field_name: body
 entity_type: node
-bundle: badcamp_sponsor
+bundle: uccsc_sponsor
 label: About
 description: ''
 required: false

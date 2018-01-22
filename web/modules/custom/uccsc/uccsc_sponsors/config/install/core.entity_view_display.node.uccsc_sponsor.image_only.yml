@@ -3,19 +3,19 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.image_only
-    - field.field.node.badcamp_sponsor.body
-    - field.field.node.badcamp_sponsor.field_link
-    - field.field.node.badcamp_sponsor.field_sponsor_level
-    - field.field.node.badcamp_sponsor.field_sponsor_logo
+    - field.field.node.uccsc_sponsor.body
+    - field.field.node.uccsc_sponsor.field_link
+    - field.field.node.uccsc_sponsor.field_sponsor_level
+    - field.field.node.uccsc_sponsor.field_sponsor_logo
     - image.style.sponsor_logo_footer
-    - node.type.badcamp_sponsor
+    - node.type.uccsc_sponsor
   module:
     - image
     - link
     - user
-id: node.badcamp_sponsor.image_only
+id: node.uccsc_sponsor.image_only
 targetEntityType: node
-bundle: badcamp_sponsor
+bundle: uccsc_sponsor
 mode: image_only
 content:
   field_link:

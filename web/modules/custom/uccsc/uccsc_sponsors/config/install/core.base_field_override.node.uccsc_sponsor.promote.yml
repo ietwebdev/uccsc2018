@@ -2,11 +2,11 @@ langcode: en
 status: true
 dependencies:
   config:
-    - node.type.badcamp_sponsor
-id: node.badcamp_sponsor.promote
+    - node.type.uccsc_sponsor
+id: node.uccsc_sponsor.promote
 field_name: promote
 entity_type: node
-bundle: badcamp_sponsor
+bundle: uccsc_sponsor
 label: 'Promoted to front page'
 description: ''
 required: false

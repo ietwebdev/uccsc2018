@@ -3,13 +3,13 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_sponsor_logo
-    - node.type.badcamp_sponsor
+    - node.type.uccsc_sponsor
   module:
     - image
-id: node.badcamp_sponsor.field_sponsor_logo
+id: node.uccsc_sponsor.field_sponsor_logo
 field_name: field_sponsor_logo
 entity_type: node
-bundle: badcamp_sponsor
+bundle: uccsc_sponsor
 label: Logo
 description: ''
 required: false

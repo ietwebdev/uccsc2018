@@ -3,19 +3,19 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.badcamp_sponsor.body
-    - field.field.node.badcamp_sponsor.field_link
-    - field.field.node.badcamp_sponsor.field_sponsor_level
-    - field.field.node.badcamp_sponsor.field_sponsor_logo
+    - field.field.node.uccsc_sponsor.body
+    - field.field.node.uccsc_sponsor.field_link
+    - field.field.node.uccsc_sponsor.field_sponsor_level
+    - field.field.node.uccsc_sponsor.field_sponsor_logo
     - image.style.thumbnail
-    - node.type.badcamp_sponsor
+    - node.type.uccsc_sponsor
   module:
     - image
     - text
     - user
-id: node.badcamp_sponsor.teaser
+id: node.uccsc_sponsor.teaser
 targetEntityType: node
-bundle: badcamp_sponsor
+bundle: uccsc_sponsor
 mode: teaser
 content:
   body:

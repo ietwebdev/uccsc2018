@@ -2,19 +2,19 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.badcamp_sponsor.body
-    - field.field.node.badcamp_sponsor.field_link
-    - field.field.node.badcamp_sponsor.field_sponsor_level
-    - field.field.node.badcamp_sponsor.field_sponsor_logo
-    - node.type.badcamp_sponsor
+    - field.field.node.uccsc_sponsor.body
+    - field.field.node.uccsc_sponsor.field_link
+    - field.field.node.uccsc_sponsor.field_sponsor_level
+    - field.field.node.uccsc_sponsor.field_sponsor_logo
+    - node.type.uccsc_sponsor
   module:
     - image
     - link
     - text
     - user
-id: node.badcamp_sponsor.default
+id: node.uccsc_sponsor.default
 targetEntityType: node
-bundle: badcamp_sponsor
+bundle: uccsc_sponsor
 mode: default
 content:
   body:

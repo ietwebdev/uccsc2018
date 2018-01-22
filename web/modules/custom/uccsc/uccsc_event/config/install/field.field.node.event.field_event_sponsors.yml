@@ -3,7 +3,7 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_event_sponsors
-    - node.type.badcamp_sponsor
+    - node.type.uccsc_sponsor
     - node.type.event
 id: node.event.field_event_sponsors
 field_name: field_event_sponsors
@@ -19,7 +19,7 @@ settings:
   handler: 'default:node'
   handler_settings:
     target_bundles:
-      badcamp_sponsor: badcamp_sponsor
+      uccsc_sponsor: uccsc_sponsor
     sort:
       field: title
       direction: ASC

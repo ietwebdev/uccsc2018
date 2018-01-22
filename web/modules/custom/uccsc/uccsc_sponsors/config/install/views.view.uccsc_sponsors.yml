@@ -4,15 +4,12 @@ dependencies:
   config:
     - core.entity_view_mode.node.image_only
     - field.storage.node.field_sponsor_level
-    - node.type.badcamp_sponsor
-    - taxonomy.vocabulary.sponsor_level
-  content:
-    - 'taxonomy_term:sponsor_level:d31e8168-12ae-4760-ad90-655509b07e5a'
+    - node.type.uccsc_sponsor
   module:
     - node
     - taxonomy
     - user
-id: badcamp_sponsors_view
+id: uccsc_sponsors
 label: Sponsors
 module: views
 description: 'Lists of sponsors'
@@ -85,8 +82,39 @@ display:
           id: type
           table: node_field_data
           field: type
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: in
           value:
-            badcamp_sponsor: badcamp_sponsor
+            uccsc_sponsor: uccsc_sponsor
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
           entity_type: node
           entity_field: type
           plugin_id: bundle
@@ -116,111 +144,6 @@ display:
       max-age: -1
       contexts:
         - 'languages:language_interface'
-        - 'user.node_grants:view'
-        - user.permissions
-      tags: {  }
-  core_sponsors_block:
-    display_plugin: block
-    id: core_sponsors_block
-    display_title: 'Core Level Sponsor Logos Block'
-    position: 2
-    display_options:
-      display_extenders: {  }
-      block_description: 'Core Level Sponsors: Logos'
-      sorts:
-        random:
-          id: random
-          table: views
-          field: random
-          relationship: none
-          group_type: group
-          admin_label: ''
-          order: ASC
-          exposed: false
-          expose:
-            label: ''
-          plugin_id: random
-      defaults:
-        sorts: false
-        filters: false
-        filter_groups: false
-        css_class: false
-      display_description: ''
-      filters:
-        status:
-          value: '1'
-          table: node_field_data
-          field: status
-          plugin_id: boolean
-          entity_type: node
-          entity_field: status
-          id: status
-          expose:
-            operator: ''
-          group: 1
-        type:
-          id: type
-          table: node_field_data
-          field: type
-          value:
-            badcamp_sponsor: badcamp_sponsor
-          entity_type: node
-          entity_field: type
-          plugin_id: bundle
-        field_sponsor_level_target_id:
-          id: field_sponsor_level_target_id
-          table: node__field_sponsor_level
-          field: field_sponsor_level_target_id
-          relationship: none
-          group_type: group
-          admin_label: 'Core Level Sponsors Only'
-          operator: or
-          value:
-            1: 1
-          group: 1
-          exposed: false
-          expose:
-            operator_id: ''
-            label: ''
-            description: ''
-            use_operator: false
-            operator: ''
-            identifier: ''
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-            reduce: false
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          reduce_duplicates: true
-          type: select
-          limit: true
-          vid: sponsor_level
-          hierarchy: false
-          error_message: true
-          plugin_id: taxonomy_index_tid
-      filter_groups:
-        operator: AND
-        groups:
-          1: AND
-      css_class: core-sponsors-block
-    cache_metadata:
-      max-age: 0
-      contexts:
-        - 'languages:language_interface'
-        - user
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
@@ -420,10 +343,37 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - 'user.node_grants:view'
-        - 'user.permissions'
+        - user.permissions
       tags:
-        - 'config:core.entity_view_display.node.badcamp_sponsor.default'
-        - 'config:core.entity_view_display.node.badcamp_sponsor.full'
-        - 'config:core.entity_view_display.node.badcamp_sponsor.image_only'
-        - 'config:core.entity_view_display.node.badcamp_sponsor.teaser'
+        - 'config:core.entity_view_display.node.event.default'
+        - 'config:core.entity_view_display.node.event.schedule'
+        - 'config:core.entity_view_display.node.event.teaser'
+        - 'config:core.entity_view_display.node.session.default'
+        - 'config:core.entity_view_display.node.session.full'
+        - 'config:core.entity_view_display.node.session.schedule'
+        - 'config:core.entity_view_display.node.session.teaser'
+        - 'config:core.entity_view_display.node.sf_article.default'
+        - 'config:core.entity_view_display.node.sf_article.featured'
+        - 'config:core.entity_view_display.node.sf_article.listing'
+        - 'config:core.entity_view_display.node.sf_article.teaser'
+        - 'config:core.entity_view_display.node.sf_event.default'
+        - 'config:core.entity_view_display.node.sf_event.listing'
+        - 'config:core.entity_view_display.node.sf_event.teaser'
+        - 'config:core.entity_view_display.node.sf_page.default'
+        - 'config:core.entity_view_display.node.sf_page.listing'
+        - 'config:core.entity_view_display.node.sf_page.teaser'
+        - 'config:core.entity_view_display.node.sf_person.card'
+        - 'config:core.entity_view_display.node.sf_person.default'
+        - 'config:core.entity_view_display.node.sf_person.listing'
+        - 'config:core.entity_view_display.node.sf_person.teaser'
+        - 'config:core.entity_view_display.node.sf_photo_gallery.default'
+        - 'config:core.entity_view_display.node.sf_photo_gallery.listing'
+        - 'config:core.entity_view_display.node.sf_photo_gallery.poster'
+        - 'config:core.entity_view_display.node.sf_photo_gallery.teaser'
+        - 'config:core.entity_view_display.node.uccsc_sponsor.default'
+        - 'config:core.entity_view_display.node.uccsc_sponsor.full'
+        - 'config:core.entity_view_display.node.uccsc_sponsor.image_only'
+        - 'config:core.entity_view_display.node.uccsc_sponsor.teaser'
+        - 'config:core.entity_view_display.node.venue.default'
+        - 'config:core.entity_view_display.node.venue.teaser'
         - 'config:field.storage.node.field_sponsor_level'

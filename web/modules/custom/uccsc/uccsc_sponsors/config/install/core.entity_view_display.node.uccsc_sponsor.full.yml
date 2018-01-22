@@ -3,20 +3,20 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.full
-    - field.field.node.badcamp_sponsor.body
-    - field.field.node.badcamp_sponsor.field_link
-    - field.field.node.badcamp_sponsor.field_sponsor_level
-    - field.field.node.badcamp_sponsor.field_sponsor_logo
+    - field.field.node.uccsc_sponsor.body
+    - field.field.node.uccsc_sponsor.field_link
+    - field.field.node.uccsc_sponsor.field_sponsor_level
+    - field.field.node.uccsc_sponsor.field_sponsor_logo
     - image.style.large
-    - node.type.badcamp_sponsor
+    - node.type.uccsc_sponsor
   module:
     - image
     - link
     - text
     - user
-id: node.badcamp_sponsor.full
+id: node.uccsc_sponsor.full
 targetEntityType: node
-bundle: badcamp_sponsor
+bundle: uccsc_sponsor
 mode: full
 content:
   attendees_sponsor_team:
@@ -52,11 +52,6 @@ content:
     third_party_settings: {  }
     type: image
     region: content
-  sponsored_events_entity_view_1:
-    weight: 5
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   user_sponsors_entity_view_1:
     weight: 4
     region: content

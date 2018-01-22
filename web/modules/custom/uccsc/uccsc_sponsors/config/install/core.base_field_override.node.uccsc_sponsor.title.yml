@@ -2,11 +2,11 @@ langcode: en
 status: true
 dependencies:
   config:
-    - node.type.badcamp_sponsor
-id: node.badcamp_sponsor.title
+    - node.type.uccsc_sponsor
+id: node.uccsc_sponsor.title
 field_name: title
 entity_type: node
-bundle: badcamp_sponsor
+bundle: uccsc_sponsor
 label: Name
 description: ''
 required: true
