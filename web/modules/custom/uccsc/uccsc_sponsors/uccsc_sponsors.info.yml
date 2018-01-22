@@ -5,7 +5,6 @@ core: 8.x
 dependencies:
   - block
   - ctools
-  - eva
   - field
   - field_permissions
   - file
@@ -20,5 +19,6 @@ dependencies:
   - text
   - user
   - views
+  - webform
 version: 8.x-1.x
 package: uccsc

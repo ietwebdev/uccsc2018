@@ -1,9 +1,2 @@
 bundle: uccsc
-excluded:
-  - block.block.views_block__attendees_block_1
-  - field.field.user.user.field_hearing_sponsors
-  - field.storage.node.field_link
-  - field.storage.user.field_hearing_sponsors
-  - views.view.attendees
-  - views.view.user_sponsors
 required: true

@@ -2,20 +2,20 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.badcamp_sponsor.body
-    - field.field.node.badcamp_sponsor.field_link
-    - field.field.node.badcamp_sponsor.field_sponsor_level
-    - field.field.node.badcamp_sponsor.field_sponsor_logo
+    - field.field.node.uccsc_sponsor.body
+    - field.field.node.uccsc_sponsor.field_link
+    - field.field.node.uccsc_sponsor.field_sponsor_level
+    - field.field.node.uccsc_sponsor.field_sponsor_logo
     - image.style.thumbnail
-    - node.type.badcamp_sponsor
+    - node.type.uccsc_sponsor
   module:
     - image
     - link
     - path
     - text
-id: node.badcamp_sponsor.default
+id: node.uccsc_sponsor.default
 targetEntityType: node
-bundle: badcamp_sponsor
+bundle: uccsc_sponsor
 mode: default
 content:
   body:
@@ -71,6 +71,13 @@ content:
     weight: 3
     third_party_settings: {  }
     region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 120
+    region: content
+    third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
@@ -94,5 +101,8 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+    region: content
+  url_redirects:
+    weight: 50
     region: content
 hidden: {  }
