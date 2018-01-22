@@ -1,8 +1,5 @@
 bundle: uccsc
 excluded:
-  - block.block.sf_default__front_hb_welcome_sitefarm
-  - block.block.sf_default__front_mh_learn_about_sitefarm
-  - block.block.sf_default__front_mh_patternlab
   - user.settings
   - user.mail
   - core.entity_form_display.user.user.default
