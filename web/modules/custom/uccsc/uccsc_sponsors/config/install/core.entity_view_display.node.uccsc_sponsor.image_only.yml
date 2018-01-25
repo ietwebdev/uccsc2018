@@ -10,36 +10,28 @@ dependencies:
     - image.style.sponsor_logo_footer
     - node.type.uccsc_sponsor
   module:
+    - empty_fields
     - image
-    - link
     - user
 id: node.uccsc_sponsor.image_only
 targetEntityType: node
 bundle: uccsc_sponsor
 mode: image_only
 content:
-  field_link:
-    type: link
-    weight: 1
-    region: content
-    label: hidden
-    settings:
-      trim_length: 80
-      url_only: false
-      url_plain: false
-      rel: ''
-      target: ''
-    third_party_settings: {  }
   field_sponsor_logo:
     weight: 0
     label: hidden
     settings:
       image_style: sponsor_logo_footer
       image_link: ''
-    third_party_settings: {  }
+    third_party_settings:
+      empty_fields:
+        handler: ''
     type: image
     region: content
 hidden:
   body: true
+  field_link: true
   field_sponsor_level: true
   links: true
+  sponsored_events_entity_view_1: true
