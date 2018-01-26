@@ -63,3 +63,11 @@ if (defined('PANTHEON_ENVIRONMENT')) {
     // Set Redis to not get the cache_form (no performance difference).
     $settings['cache']['bins']['form']      = 'cache.backend.database';
 }
+
+// Trusted Host Patterns according to https://www.drupal.org/node/1992030
+
+$settings['trusted_host_patterns'] = [
+    '^uccsc\.ucdavis\.edu',
+    '^.+\-uccsc\.pantheonsite\.io',
+    '^.+\.local',
+];
