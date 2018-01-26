@@ -1,0 +1,13 @@
+/* Add CSS theme overrides here. */
+.sponsor {
+    margin: 3em;
+    float: left;
+}
+.view-uccsc-sponsors h2 {
+    clear: both;
+    background-color: #002855;
+    color: white;
+    width: 100%;
+    text-align: center;
+    line-height: 2em;
+}

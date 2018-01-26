@@ -1,0 +1,5 @@
+# Schema for the configuration files of the SiteFarm One subtheme.
+
+uccsc2018.settings:
+  type: theme_settings
+  label: 'UCCSC 2018 subtheme settings'

@@ -4,7 +4,9 @@ type: module
 core: 8.x
 dependencies:
   - block
+  - block_style_plugins
   - ctools
+  - empty_fields
   - field
   - field_permissions
   - file
@@ -17,6 +19,7 @@ dependencies:
   - system
   - taxonomy
   - text
+  - url_embed
   - user
   - views
   - webform

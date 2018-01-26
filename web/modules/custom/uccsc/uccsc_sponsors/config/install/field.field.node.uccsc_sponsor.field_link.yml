@@ -10,7 +10,7 @@ id: node.uccsc_sponsor.field_link
 field_name: field_link
 entity_type: node
 bundle: uccsc_sponsor
-label: Link
+label: 'URL Link'
 description: ''
 required: false
 translatable: false

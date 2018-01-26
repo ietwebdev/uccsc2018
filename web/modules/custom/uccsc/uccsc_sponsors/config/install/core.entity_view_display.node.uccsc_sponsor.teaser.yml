@@ -12,6 +12,7 @@ dependencies:
   module:
     - image
     - text
+    - url_embed
     - user
 id: node.uccsc_sponsor.teaser
 targetEntityType: node
@@ -26,6 +27,13 @@ content:
       trim_length: 400
     third_party_settings: {  }
     region: content
+  field_link:
+    type: url_embed
+    weight: 5
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
   field_sponsor_logo:
     type: image
     weight: 0
@@ -36,6 +44,6 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
-  field_link: true
   field_sponsor_level: true
   links: true
+  sponsored_events_entity_view_1: true

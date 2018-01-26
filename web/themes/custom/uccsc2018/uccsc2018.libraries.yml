@@ -1,0 +1,7 @@
+global-styles:
+  version: VERSION
+  css:
+    theme:
+      css/uccsc2018.css: {}
+  js:
+    js/scripts.js: {}

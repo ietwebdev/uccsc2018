@@ -9,7 +9,7 @@ id: node.uccsc_sponsor.field_sponsor_level
 field_name: field_sponsor_level
 entity_type: node
 bundle: uccsc_sponsor
-label: Level
+label: 'Sponsorship Level'
 description: ''
 required: false
 translatable: false
