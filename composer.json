@@ -36,6 +36,7 @@
     "drupal/field_group": "^1.0",
     "drupal/field_permissions": "^1.0@beta",
     "drupal/flag": "^4.0@alpha",
+    "drupal/redis": "^1.0@RC",
     "drupal/rules": "^3.0@alpha",
     "drupal/video_embed_field": "^1.5",
     "drush/drush": "~8",
