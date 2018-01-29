@@ -3,8 +3,8 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_event_sponsors
-    - node.type.uccsc_sponsor
     - node.type.event
+    - node.type.uccsc_sponsor
 id: node.event.field_event_sponsors
 field_name: field_event_sponsors
 entity_type: node

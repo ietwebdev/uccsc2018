@@ -8,10 +8,15 @@ dependencies:
     - field.field.node.session.field_event_venue
     - field.field.node.session.field_session_description
     - field.field.node.session.field_session_files
+    - field.field.node.session.field_session_length
+    - field.field.node.session.field_session_previous_knowledge
+    - field.field.node.session.field_session_prior_experience
     - field.field.node.session.field_session_skill_level
+    - field.field.node.session.field_session_software
     - field.field.node.session.field_session_speakers
     - field.field.node.session.field_session_status
     - field.field.node.session.field_session_track
+    - field.field.node.session.field_session_type
     - field.field.node.session.field_video
     - node.type.session
   module:
@@ -81,6 +86,11 @@ content:
 hidden:
   field_event_sponsors: true
   field_session_files: true
+  field_session_length: true
+  field_session_previous_knowledge: true
+  field_session_prior_experience: true
+  field_session_software: true
   field_session_status: true
+  field_session_type: true
   field_video: true
   links: true
