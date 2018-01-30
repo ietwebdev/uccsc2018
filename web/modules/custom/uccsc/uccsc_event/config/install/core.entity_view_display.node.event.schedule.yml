@@ -15,8 +15,6 @@ dependencies:
     - field.field.node.event.field_sold_out
     - node.type.event
   module:
-    - datetime_range
-    - empty_fields
     - text
     - user
 id: node.event.schedule
@@ -24,21 +22,8 @@ targetEntityType: node
 bundle: event
 mode: schedule
 content:
-  field_event_date_and_time:
-    type: daterange_default
-    weight: 0
-    region: content
-    label: hidden
-    settings:
-      timezone_override: America/Los_Angeles
-      format_type: time_only
-      separator: '-'
-    third_party_settings:
-      empty_fields:
-        handler: ''
-        empty_text: ''
   field_event_description:
-    weight: 3
+    weight: 1
     label: hidden
     settings:
       trim_length: 400
@@ -46,7 +31,7 @@ content:
     type: text_summary_or_trimmed
     region: content
   field_event_venue:
-    weight: 2
+    weight: 0
     label: hidden
     settings:
       link: true
@@ -54,12 +39,13 @@ content:
     type: entity_reference_label
     region: content
   flag_add_to_schedule:
-    weight: 4
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
   field_event_agenda: true
+  field_event_date_and_time: true
   field_event_image: true
   field_event_sponsors: true
   field_event_type: true

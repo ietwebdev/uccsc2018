@@ -3,11 +3,22 @@
     margin: 3em;
     float: left;
 }
-.view-uccsc-sponsors h2 {
+.view-uccsc-sponsors h2, .view-grouping-header {
     clear: both;
     background-color: #002855;
     color: white;
     width: 100%;
     text-align: center;
     line-height: 2em;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.view-grouping-content h2 {
+    clear: both;
+    background-color: #F4E5B2;
+    width: 100%;
+    text-align: center;
+    line-height: 2em;
+    margin-bottom: 10px;
 }
