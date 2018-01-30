@@ -7,9 +7,9 @@ dependencies:
     - field.storage.node.field_session_status
     - node.type.session
   module:
-    - datetime_range
     - node
     - options
+    - uccsc_event
     - user
 id: my_proposals
 label: 'My Proposals'
@@ -204,7 +204,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: 'Scheduled: <strong>{{ field_event_date_and_time__value }}</strong>'
+            text: 'Scheduled: <strong>{{ field_event_date_and_time }}</strong>'
             make_link: false
             path: ''
             absolute: false
@@ -242,11 +242,13 @@ display:
           empty_zero: true
           hide_alter_empty: true
           click_sort_column: value
-          type: daterange_default
+          type: daterange_modified
           settings:
             timezone_override: ''
             format_type: long
             separator: '-'
+            same_date_date_format: medium
+            same_date_time_format: time_only
           group_column: value
           group_columns: {  }
           group_rows: true
