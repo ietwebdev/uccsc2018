@@ -3,11 +3,15 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.storage.node.field_event_date_and_time
     - node.type.session
     - node.type.venue
   module:
+    - datetime
+    - datetime_range
     - eva
     - node
+    - options
     - user
 id: venue_events
 label: 'Venue Events'
@@ -447,6 +451,7 @@ display:
     cache_metadata:
       max-age: -1
       contexts:
+        - 'languages:language_content'
         - 'languages:language_interface'
         - url
         - 'user.node_grants:view'
@@ -459,8 +464,13 @@ display:
         - 'config:core.entity_view_display.node.session.full'
         - 'config:core.entity_view_display.node.session.schedule'
         - 'config:core.entity_view_display.node.session.teaser'
+        - 'config:core.entity_view_display.node.uccsc_sponsor.default'
+        - 'config:core.entity_view_display.node.uccsc_sponsor.full'
+        - 'config:core.entity_view_display.node.uccsc_sponsor.image_only'
+        - 'config:core.entity_view_display.node.uccsc_sponsor.teaser'
         - 'config:core.entity_view_display.node.venue.default'
         - 'config:core.entity_view_display.node.venue.teaser'
+        - 'config:field.storage.node.field_event_date_and_time'
   entity_view_1:
     display_plugin: entity_view
     id: entity_view_1
@@ -474,6 +484,7 @@ display:
     cache_metadata:
       max-age: -1
       contexts:
+        - 'languages:language_content'
         - 'languages:language_interface'
         - url
         - 'user.node_grants:view'
@@ -486,5 +497,10 @@ display:
         - 'config:core.entity_view_display.node.session.full'
         - 'config:core.entity_view_display.node.session.schedule'
         - 'config:core.entity_view_display.node.session.teaser'
+        - 'config:core.entity_view_display.node.uccsc_sponsor.default'
+        - 'config:core.entity_view_display.node.uccsc_sponsor.full'
+        - 'config:core.entity_view_display.node.uccsc_sponsor.image_only'
+        - 'config:core.entity_view_display.node.uccsc_sponsor.teaser'
         - 'config:core.entity_view_display.node.venue.default'
         - 'config:core.entity_view_display.node.venue.teaser'
+        - 'config:field.storage.node.field_event_date_and_time'

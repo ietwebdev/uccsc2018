@@ -3,10 +3,18 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.schedule
+    - field.storage.node.field_event_date_and_time
+    - flag.flag.add_to_schedule
+    - taxonomy.vocabulary.session_track
   module:
     - better_exposed_filters
+    - daterange_compact
+    - datetime
     - eva
+    - flag
     - node
+    - taxonomy
+    - uccsc_event
     - user
 id: my_schedule
 label: Schedule
@@ -346,7 +354,8 @@ display:
         - url
         - 'user.node_grants:view'
         - user.permissions
-      tags: {  }
+      tags:
+        - 'config:field.storage.node.field_event_date_and_time'
   full_schedule:
     display_plugin: page
     id: full_schedule
@@ -620,10 +629,14 @@ display:
     cache_metadata:
       max-age: -1
       contexts:
+        - 'languages:language_content'
         - 'languages:language_interface'
+        - url
+        - user
         - 'user.node_grants:view'
         - user.permissions
-      tags: {  }
+      tags:
+        - 'config:field.storage.node.field_event_date_and_time'
   my_schedule:
     display_plugin: entity_view
     id: my_schedule
@@ -646,7 +659,8 @@ display:
         - url
         - 'user.node_grants:view'
         - user.permissions
-      tags: {  }
+      tags:
+        - 'config:field.storage.node.field_event_date_and_time'
   page_1:
     display_plugin: page
     id: page_1
@@ -980,8 +994,11 @@ display:
     cache_metadata:
       max-age: -1
       contexts:
+        - 'languages:language_content'
         - 'languages:language_interface'
         - url
+        - user
         - 'user.node_grants:view'
         - user.permissions
-      tags: {  }
+      tags:
+        - 'config:field.storage.node.field_event_date_and_time'

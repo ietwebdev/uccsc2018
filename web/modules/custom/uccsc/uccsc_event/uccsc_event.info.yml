@@ -5,6 +5,8 @@ core: 8.x
 dependencies:
   - address
   - better_exposed_filters
+  - block
+  - block_style_plugins
   - daterange_compact
   - datetime
   - datetime_range
