@@ -12,6 +12,7 @@ dependencies:
   - field_permissions
   - file
   - image
+  - mailchimp_lists
   - path
   - system
   - telephone
