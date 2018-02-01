@@ -40,6 +40,7 @@
     "drupal/mailchimp": "^1.5",
     "drupal/redis": "^1.0@RC",
     "drupal/rules": "^3.0@alpha",
+    "drupal/smtp": "^1.0@beta",
     "drupal/video_embed_field": "^1.5",
     "drush/drush": "~8",
     "rvtraveller/qs-composer-installer": "^1.1",
