@@ -9,6 +9,7 @@ permissions:
   - 'access content'
   - 'access site-wide contact form'
   - 'access sitemap'
+  - 'access user profiles'
   - 'search content'
   - 'use text format restricted_html'
   - 'view field_event_date_and_time'
