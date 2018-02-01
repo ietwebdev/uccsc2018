@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies: {  }
+id: anonymous
+label: 'Anonymous user'
+weight: -10
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'access sitemap'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view field_event_date_and_time'
+  - 'view field_event_sponsors'
+  - 'view field_event_venue'
+  - 'view field_session_status'
+  - 'view sharemessages'
+  - 'view trumba spud blocks'
