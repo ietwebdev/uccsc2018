@@ -2,7 +2,5 @@ bundle: uccsc
 excluded:
   - user.settings
   - user.mail
-  - core.entity_form_display.user.user.default
-  - core.entity_view_display.user.user.default
   - core.entity_view_mode.user.token
 required: true
