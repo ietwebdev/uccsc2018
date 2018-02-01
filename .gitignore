@@ -68,6 +68,9 @@ web/sites/simpletest
 # Ignore local files from Docksal
 .docksal/docksal-local.env
 
+# Ignore local files from Behat
+tests/behat.yml
+
 # Packages #
 ############
 *.7z

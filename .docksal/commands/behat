@@ -14,19 +14,15 @@
 #   $DOCKER_RUNNING - (string) "true" or "false"
 DOCROOT_PATH="${PROJECT_ROOT}/${DOCROOT}"
 SITEDIR_PATH="${DOCROOT_PATH}/sites/${SITE_DIRECTORY}"
-BEHAT_PATH="${DOCROOT_PATH}/private/tests/behat"
-FIN_BEHAT_PATH="/var/www/private/tests/behat"
+BEHAT_PATH="${PROJECT_ROOT}/tests"
+FIN_BEHAT_PATH="/var/www/tests"
 
 if [[ ! -f "$BEHAT_PATH/behat.yml" ]]; then
 	echo "Could not find behat.yml. Creating..."
-	cp $BEHAT_PATH/behat.template.yml $BEHAT_PATH/sitefarm/behat.yml
+	cp $BEHAT_PATH/behat.template.yml $BEHAT_PATH/behat.yml
 fi
 
 cd $DOCROOT_PATH
-# Make sure Composer dependencies are installed
-if [[ ! -d "$BEHAT_PATH/vendor" ]]; then
-	fin exec "cd $FIN_BEHAT_PATH && composer install --prefer-source --no-interaction"
-fi
 
 # Launch Behat tests
-fin exec "cd $FIN_BEHAT_PATH ; bin/behat -p docker $@"
+fin exec "cd $FIN_BEHAT_PATH ; ../vendor/bin/behat -p docker $@"
