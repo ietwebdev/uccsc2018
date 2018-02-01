@@ -31,7 +31,7 @@ third_party_settings:
         id: ''
         classes: ''
         description: ''
-      label: uccsc_profile
+      label: 'UCCSC Profile'
 id: user.user.default
 targetEntityType: user
 bundle: user

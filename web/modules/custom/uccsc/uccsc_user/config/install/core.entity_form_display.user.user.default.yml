@@ -2,7 +2,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_form_mode.user.register
     - field.field.user.user.field_uccsc_bio
     - field.field.user.user.field_uccsc_first_name
     - field.field.user.user.field_uccsc_institution_company
@@ -15,6 +14,7 @@ dependencies:
     - field_group
     - image
     - mailchimp_lists
+    - path
     - telephone
     - user
 third_party_settings:
@@ -36,10 +36,10 @@ third_party_settings:
         description: ''
         required_fields: true
       label: 'UCCSC Profile'
-id: user.user.register
+id: user.user.default
 targetEntityType: user
 bundle: user
-mode: register
+mode: default
 content:
   account:
     weight: 0
@@ -52,37 +52,37 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_uccsc_bio:
-    weight: 35
+    type: string_textarea
+    weight: 6
+    region: content
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-    type: string_textarea
-    region: content
   field_uccsc_first_name:
-    weight: 31
+    type: string_textfield
+    weight: 2
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
   field_uccsc_institution_company:
-    weight: 34
+    type: string_textfield
+    weight: 5
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
   field_uccsc_last_name:
-    weight: 32
+    type: string_textfield
+    weight: 3
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
   field_uccsc_mailing_list:
     type: mailchimp_lists_select
     weight: 2
@@ -90,21 +90,34 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_uccsc_phone:
-    weight: 33
+    type: telephone_default
+    weight: 4
+    region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
-    type: telephone_default
-    region: content
   field_uccsc_user_photo:
     type: image_image
-    weight: 36
+    weight: 7
     region: content
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
-hidden:
-  google_analytics: true
-  language: true
-  path: true
+  google_analytics:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  language:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
