@@ -11,6 +11,8 @@ permissions:
   - 'access site-wide contact form'
   - 'access sitemap'
   - 'access user profiles'
+  - 'cancel account'
+  - 'change own username'
   - 'create field_session_prior_experience'
   - 'create session content'
   - 'edit own field_session_prior_experience'
