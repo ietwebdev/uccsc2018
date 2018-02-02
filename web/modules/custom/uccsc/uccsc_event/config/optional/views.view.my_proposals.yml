@@ -14,7 +14,7 @@ dependencies:
 id: my_proposals
 label: 'My Proposals'
 module: views
-description: ''
+description: 'List of Session Proposals by current user.'
 tag: ''
 base_table: node_field_data
 base_field: nid
@@ -350,7 +350,20 @@ display:
             label: ''
       title: 'My Proposals'
       header: {  }
-      footer: {  }
+      footer:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: '<a href="/node/add/session">Add Proposal</a>'
+            format: basic_html
+          plugin_id: text
       empty:
         area:
           id: area
@@ -362,7 +375,7 @@ display:
           empty: true
           tokenize: false
           content:
-            value: '<a href="/node/add/session">Submit a Session Proposal!</a>'
+            value: '<a href="/node/add/session">Submit a Session Proposal</a>'
             format: basic_html
           plugin_id: text
       relationships: {  }
