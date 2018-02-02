@@ -1,9 +1,10 @@
 ignored_config_entities:
   0: 'block.block.*'
   2: 'webform.webform.*'
-  4: 'geolocation.settings:google_map_api_key'
-  6: 'smtp.settings:smtp_password'
-  8: 'smtp.settings:smtp_username'
-  10: 'mailchimp.settings:api_key'
+  4: 'webform.webform_options.*'
+  6: 'geolocation.settings:google_map_api_key'
+  8: 'smtp.settings:smtp_password'
+  10: 'smtp.settings:smtp_username'
+  12: 'mailchimp.settings:api_key'
 _core:
   default_config_hash: UVH1aJ4b44UM-VdPVN7hNNuuVqfReJxwfVeDQH1Hvsk

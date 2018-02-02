@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bb0834365217c09bca5ec6c7f568845c",
+    "content-hash": "3274905c01b732515b2c7076f21e73e3",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1837,6 +1837,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Support for export filtering via Drush": "https://www.drupal.org/files/issues/support_for_export-2857247-12.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",

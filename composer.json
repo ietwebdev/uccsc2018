@@ -127,7 +127,12 @@
         "web.config"
       ]
     },
-    "enable-patching": true
+    "enable-patching": true,
+    "patches": {
+      "drupal/config_ignore": {
+        "Support for export filtering via Drush": "https://www.drupal.org/files/issues/support_for_export-2857247-12.patch"
+      }
+    }
   },
   "config": {
     "optimize-autoloader": true,
