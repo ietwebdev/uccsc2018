@@ -1,0 +1,12 @@
+uuid: fec12633-d8a9-4e55-b265-9e28f210d688
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: RNPI8SXqe8zyV40kEWSCrBeM4n2hpsGEsLXqQRPzQpk
+id: user.card
+label: Card
+targetEntityType: user
+cache: true

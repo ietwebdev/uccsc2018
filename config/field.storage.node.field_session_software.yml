@@ -1,0 +1,25 @@
+uuid: be5dd63a-e633-43e2-ba3c-78080bd8e456
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - node
+    - text
+third_party_settings:
+  field_permissions:
+    permission_type: public
+_core:
+  default_config_hash: Foi93M-HC3RJCx6jzgEgPemR1-zBEIDTyPUIqLRh8u8
+id: node.field_session_software
+field_name: field_session_software
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

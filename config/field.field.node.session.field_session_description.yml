@@ -1,0 +1,24 @@
+uuid: 238b50ec-4633-4af4-b7e2-f7368f633b32
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_session_description
+    - node.type.session
+  module:
+    - text
+_core:
+  default_config_hash: s3TXb0ehmH60Mnyf0n2dp97s_kIN4XFnKEBYYubf40s
+id: node.session.field_session_description
+field_name: field_session_description
+entity_type: node
+bundle: session
+label: Description
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

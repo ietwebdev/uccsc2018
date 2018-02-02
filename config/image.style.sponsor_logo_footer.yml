@@ -1,0 +1,17 @@
+uuid: 55e00638-7010-42a6-b497-4c98ccf3f3a7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ssN_sim7wRei4YUNYUZ3xFr4NTV3g4IkA_pSDPYPivc
+name: sponsor_logo_footer
+label: 'Sponsor Logo Footer'
+effects:
+  922936d9-8777-4264-8083-0b6bfaeb9be3:
+    uuid: 922936d9-8777-4264-8083-0b6bfaeb9be3
+    id: image_scale
+    weight: 1
+    data:
+      width: 350
+      height: 130
+      upscale: true

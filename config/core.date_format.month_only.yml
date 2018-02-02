@@ -1,0 +1,10 @@
+uuid: 0c54fac6-d108-41b6-8672-c50ae9fbe26c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: unZbuLL5xSHFZD__hGwLvvkb_Zz1Sulx1ikxgPnlI4c
+id: month_only
+label: 'Month Only'
+locked: false
+pattern: M

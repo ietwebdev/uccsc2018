@@ -1,0 +1,32 @@
+uuid: 60bee6e7-a0b8-471c-a709-86687d2df97c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.session_track.field_icon
+    - taxonomy.vocabulary.session_track
+  module:
+    - text
+_core:
+  default_config_hash: ZLOkS53dHq8M3tDdv693nVUAJxy9OJDXqkSYqt04A9M
+id: taxonomy_term.session_track.default
+targetEntityType: taxonomy_term
+bundle: session_track
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_icon:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

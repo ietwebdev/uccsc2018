@@ -1,0 +1,25 @@
+uuid: 1a9f4b2f-6a7d-4545-9a5b-6dcae470de60
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - node
+    - text
+third_party_settings:
+  field_permissions:
+    permission_type: public
+_core:
+  default_config_hash: 9_tkn-JFIPLXUzfYgyhFu-Yatv6NsZ7JboUpPo3lE4Q
+id: node.field_session_description
+field_name: field_session_description
+entity_type: node
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

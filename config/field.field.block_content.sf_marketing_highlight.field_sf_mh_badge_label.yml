@@ -1,0 +1,21 @@
+uuid: 8d0d36b3-71b5-4374-993c-b4556d3570ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.sf_marketing_highlight
+    - field.storage.block_content.field_sf_mh_badge_label
+_core:
+  default_config_hash: Uc9PMV68dgnSiwDA7uZxX7_hLnhq1wm0anfLfsUs8h8
+id: block_content.sf_marketing_highlight.field_sf_mh_badge_label
+field_name: field_sf_mh_badge_label
+entity_type: block_content
+bundle: sf_marketing_highlight
+label: 'Badge Label'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

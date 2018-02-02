@@ -1,0 +1,14 @@
+uuid: 6b370572-b0d0-49f5-baf4-4dbbacd163dd
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - uccsc2018@ucdavis.edu
+reply: ''
+weight: 0
+message: ''
+redirect: ''

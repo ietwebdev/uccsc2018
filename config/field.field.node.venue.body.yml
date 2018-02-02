@@ -1,0 +1,24 @@
+uuid: f5a932d6-66f6-48f5-906f-0d228b241219
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.venue
+  module:
+    - text
+_core:
+  default_config_hash: PVpgVSbOrMhbcjDZIzxMm1os00CbJxALGsYCsbgulOY
+id: node.venue.body
+field_name: body
+entity_type: node
+bundle: venue
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

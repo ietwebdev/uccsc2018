@@ -1,0 +1,59 @@
+uuid: cbbfdd58-aff1-4116-a3db-1f0c19bc15c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.schedule
+    - field.field.node.event.field_event_agenda
+    - field.field.node.event.field_event_date_and_time
+    - field.field.node.event.field_event_description
+    - field.field.node.event.field_event_image
+    - field.field.node.event.field_event_sponsors
+    - field.field.node.event.field_event_type
+    - field.field.node.event.field_event_venue
+    - field.field.node.event.field_maximum_registration
+    - field.field.node.event.field_more_info_rsvp
+    - field.field.node.event.field_sold_out
+    - node.type.event
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: COtjmT_mcB4mgl9aAr3Qpeas-J583v-BSbK-rIjd_io
+id: node.event.schedule
+targetEntityType: node
+bundle: event
+mode: schedule
+content:
+  field_event_description:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 400
+    third_party_settings: {  }
+    type: text_summary_or_trimmed
+    region: content
+  field_event_venue:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  flag_add_to_schedule:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_event_agenda: true
+  field_event_date_and_time: true
+  field_event_image: true
+  field_event_sponsors: true
+  field_event_type: true
+  field_maximum_registration: true
+  field_more_info_rsvp: true
+  field_sold_out: true
+  links: true
+  summit_attendees_entity_view_1: true

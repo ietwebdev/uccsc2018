@@ -1,0 +1,14 @@
+uuid: 63c8f50f-367f-4af9-a3b1-e75ba31403d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.uccsc_attendee
+  module:
+    - user
+id: user_add_role_action.uccsc_attendee
+label: 'Add the UCCSC Attendee role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: uccsc_attendee

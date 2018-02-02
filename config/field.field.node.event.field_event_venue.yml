@@ -1,0 +1,31 @@
+uuid: 9de73b18-5190-4efd-a58b-78ec75fa70f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_venue
+    - node.type.event
+    - node.type.venue
+_core:
+  default_config_hash: 4LwTZNubeMjwH4LjQNQ8YTY7u6EsK6c7-r5HuQONN6s
+id: node.event.field_event_venue
+field_name: field_event_venue
+entity_type: node
+bundle: event
+label: Location
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      venue: venue
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,24 @@
+uuid: 57d82298-162a-41c5-ae6b-555e73d16c08
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_description
+    - node.type.event
+  module:
+    - text
+_core:
+  default_config_hash: bDOl9VEPvGnAfYaT_oca30OjbXDYQGFJSnTxxstWRQ8
+id: node.event.field_event_description
+field_name: field_event_description
+entity_type: node
+bundle: event
+label: 'Event Description'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

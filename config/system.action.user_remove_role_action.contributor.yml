@@ -1,0 +1,14 @@
+uuid: fbd360f4-27a0-4677-92ac-3f08f37bdfee
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.contributor
+  module:
+    - user
+id: user_remove_role_action.contributor
+label: 'Remove the Contributor role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: contributor

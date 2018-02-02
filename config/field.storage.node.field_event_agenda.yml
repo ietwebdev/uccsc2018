@@ -1,0 +1,21 @@
+uuid: eb2760f3-4af1-4816-bdef-ad7baf2c5d06
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: 1pt42pHp2zpmjitQ5sQv8MLVE0ujBaa-R9KOnm1tJy0
+id: node.field_event_agenda
+field_name: field_event_agenda
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

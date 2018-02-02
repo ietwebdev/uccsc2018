@@ -1,0 +1,12 @@
+uuid: 525a22fb-aee1-46c6-bc81-57bbe7bb97e4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: HByvWgNgpkmc-Vfv495FAZRehwq3tu0UF_Iu5Wf9IAA
+id: node.image_only
+label: 'Image Only'
+targetEntityType: node
+cache: true

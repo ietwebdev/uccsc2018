@@ -1,0 +1,15 @@
+uuid: d21bc6f5-351b-423c-8f2a-1bd9799902ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - flag
+_core:
+  default_config_hash: y_VbFKQCosqtJZPIS36keUM2tZWkvvzL6xa8-d-NA70
+id: flag_action.add_to_schedule.flag
+label: 'Add to My Schedule'
+type: node
+plugin: 'flag_action:add_to_schedule.flag'
+configuration:
+  flag_id: add_to_schedule
+  flag_action: flag

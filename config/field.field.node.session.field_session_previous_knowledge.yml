@@ -1,0 +1,23 @@
+uuid: 137a0abd-76ff-483c-be09-0c829a94baf5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_session_previous_knowledge
+    - node.type.session
+  module:
+    - text
+_core:
+  default_config_hash: JKIbL8axokxPw2ywn7n2fJeYN8dQx8lTxykPmHQwFZ0
+id: node.session.field_session_previous_knowledge
+field_name: field_session_previous_knowledge
+entity_type: node
+bundle: session
+label: 'Previous Knowledge'
+description: 'Please concisely describe what existing knowledge they should have, if any. Note: this response may be included in the program materials'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

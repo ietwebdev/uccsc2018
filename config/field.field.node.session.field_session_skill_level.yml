@@ -1,0 +1,30 @@
+uuid: a8b455aa-0018-431f-b0d3-902695d0db50
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_session_skill_level
+    - node.type.session
+    - taxonomy.vocabulary.skill_level
+_core:
+  default_config_hash: G8mT45-9ueb-Vg5xdSM8yYpSadkb6_IyWDkrhOdtDpI
+id: node.session.field_session_skill_level
+field_name: field_session_skill_level
+entity_type: node
+bundle: session
+label: 'Session skill level'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      skill_level: skill_level
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,24 @@
+uuid: 7a793451-30ba-43d9-b354-3f42fdff4a9e
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_audit
+    - node
+id: node.field_sf_content_audit
+field_name: field_sf_content_audit
+entity_type: node
+type: content_audit
+settings:
+  audit_status: ''
+  audit_action: ''
+  audit_notes: ''
+  audit_mark_review: 0
+  audit_reviewer: 0
+module: content_audit
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

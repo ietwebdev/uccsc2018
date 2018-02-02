@@ -1,0 +1,22 @@
+uuid: 0c625196-a6cf-43d5-b4d3-5c410b5167de
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - user
+_core:
+  default_config_hash: 2F0A0mcw9j_Yy8W80q-oim6tNe6lDyuZLjdzCEKYzWo
+id: node.field_session_speakers
+field_name: field_session_speakers
+entity_type: node
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

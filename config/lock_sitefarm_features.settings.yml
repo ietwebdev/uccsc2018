@@ -1,0 +1,17 @@
+locked_prefix_patterns:
+  - sf_
+locked_node_types: {  }
+locked_block_content_types: {  }
+locked_filter_formats:
+  - basic_html
+  - restricted_html
+  - full_html
+  - plain_text
+locked_pathauto_patterns:
+  - photo_gallery_alias_pattern
+  - default_taxonomy
+locked_taxonomy_vocabularies: {  }
+locked_views: {  }
+locked_image_styles: {  }
+whitelist:
+  - block

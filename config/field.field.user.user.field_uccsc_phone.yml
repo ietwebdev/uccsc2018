@@ -1,0 +1,23 @@
+uuid: b0283736-ba49-479e-bef0-364f155e7a37
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_uccsc_phone
+  module:
+    - telephone
+    - user
+_core:
+  default_config_hash: F07uAKMTo3cq2KLkHoK2qU0sZlFhjRp4qbmW8fuky0I
+id: user.user.field_uccsc_phone
+field_name: field_uccsc_phone
+entity_type: user
+bundle: user
+label: Phone
+description: 'For internal use only. Will not be displayed.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone
