@@ -7,6 +7,7 @@ dependencies:
     - field.storage.node.field_event_date_and_time
   module:
     - daterange_compact
+    - datetime
     - eva
     - node
     - user

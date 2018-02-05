@@ -8,6 +8,7 @@ dependencies:
     - node.type.event
   module:
     - daterange_compact
+    - datetime
     - node
     - user
 _core:

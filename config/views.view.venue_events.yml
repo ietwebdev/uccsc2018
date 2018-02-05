@@ -8,6 +8,7 @@ dependencies:
     - node.type.session
     - node.type.venue
   module:
+    - datetime
     - datetime_range
     - eva
     - node

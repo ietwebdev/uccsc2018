@@ -294,6 +294,13 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
+        - 'config:core.entity_view_display.node.event.default'
+        - 'config:core.entity_view_display.node.event.schedule'
+        - 'config:core.entity_view_display.node.event.teaser'
+        - 'config:core.entity_view_display.node.session.default'
+        - 'config:core.entity_view_display.node.session.full'
+        - 'config:core.entity_view_display.node.session.schedule'
+        - 'config:core.entity_view_display.node.session.teaser'
         - 'config:core.entity_view_display.node.sf_article.default'
         - 'config:core.entity_view_display.node.sf_article.featured'
         - 'config:core.entity_view_display.node.sf_article.listing'
@@ -316,6 +323,8 @@ display:
         - 'config:core.entity_view_display.node.uccsc_sponsor.full'
         - 'config:core.entity_view_display.node.uccsc_sponsor.image_only'
         - 'config:core.entity_view_display.node.uccsc_sponsor.teaser'
+        - 'config:core.entity_view_display.node.venue.default'
+        - 'config:core.entity_view_display.node.venue.teaser'
         - 'config:field.storage.node.field_sponsor_level'
   block_1:
     display_plugin: block
@@ -450,6 +459,13 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
+        - 'config:core.entity_view_display.node.event.default'
+        - 'config:core.entity_view_display.node.event.schedule'
+        - 'config:core.entity_view_display.node.event.teaser'
+        - 'config:core.entity_view_display.node.session.default'
+        - 'config:core.entity_view_display.node.session.full'
+        - 'config:core.entity_view_display.node.session.schedule'
+        - 'config:core.entity_view_display.node.session.teaser'
         - 'config:core.entity_view_display.node.sf_article.default'
         - 'config:core.entity_view_display.node.sf_article.featured'
         - 'config:core.entity_view_display.node.sf_article.listing'
@@ -472,6 +488,8 @@ display:
         - 'config:core.entity_view_display.node.uccsc_sponsor.full'
         - 'config:core.entity_view_display.node.uccsc_sponsor.image_only'
         - 'config:core.entity_view_display.node.uccsc_sponsor.teaser'
+        - 'config:core.entity_view_display.node.venue.default'
+        - 'config:core.entity_view_display.node.venue.teaser'
         - 'config:field.storage.node.field_sponsor_level'
   page_1:
     display_plugin: page
@@ -496,6 +514,13 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
+        - 'config:core.entity_view_display.node.event.default'
+        - 'config:core.entity_view_display.node.event.schedule'
+        - 'config:core.entity_view_display.node.event.teaser'
+        - 'config:core.entity_view_display.node.session.default'
+        - 'config:core.entity_view_display.node.session.full'
+        - 'config:core.entity_view_display.node.session.schedule'
+        - 'config:core.entity_view_display.node.session.teaser'
         - 'config:core.entity_view_display.node.sf_article.default'
         - 'config:core.entity_view_display.node.sf_article.featured'
         - 'config:core.entity_view_display.node.sf_article.listing'
@@ -518,4 +543,6 @@ display:
         - 'config:core.entity_view_display.node.uccsc_sponsor.full'
         - 'config:core.entity_view_display.node.uccsc_sponsor.image_only'
         - 'config:core.entity_view_display.node.uccsc_sponsor.teaser'
+        - 'config:core.entity_view_display.node.venue.default'
+        - 'config:core.entity_view_display.node.venue.teaser'
         - 'config:field.storage.node.field_sponsor_level'
