@@ -1,0 +1,23 @@
+uuid: 817e6e35-35e0-4970-a0e6-7b1d5e3168b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_agenda
+    - node.type.event
+  module:
+    - text
+_core:
+  default_config_hash: 6cc-i_RDfsdk7ry2hq5tzx6a_5vKb1zsElNJfWcx40A
+id: node.event.field_event_agenda
+field_name: field_event_agenda
+entity_type: node
+bundle: event
+label: 'Event agenda'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

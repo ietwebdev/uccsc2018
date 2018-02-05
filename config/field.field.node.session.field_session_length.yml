@@ -1,0 +1,31 @@
+uuid: 0b1dee0b-bd44-4f6b-99d3-62868b538de1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_session_length
+    - node.type.session
+    - taxonomy.vocabulary.session_length
+_core:
+  default_config_hash: imTJilAzerLyT2TLgdFronHnL1gWGqLMRIiY5EUNoN0
+id: node.session.field_session_length
+field_name: field_session_length
+entity_type: node
+bundle: session
+label: 'Preferred Session Length'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      session_length: session_length
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

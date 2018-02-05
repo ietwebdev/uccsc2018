@@ -1,0 +1,10 @@
+uuid: ff5b82e9-a358-4bfb-a36c-f593e0a6e779
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vPbMjZJPfbYahGtDfuC3MwswnIyXrlApfQBIdD3QbR4
+id: day_only
+label: 'Day Only'
+locked: false
+pattern: D

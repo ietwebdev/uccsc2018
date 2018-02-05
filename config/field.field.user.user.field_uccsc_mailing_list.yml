@@ -1,0 +1,39 @@
+uuid: c548fa3a-74e5-4580-9b9b-c20bc63e7af4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_uccsc_mailing_list
+  module:
+    - mailchimp_lists
+    - user
+_core:
+  default_config_hash: S56CUCK8ql27KQdpNULD48EYMoUbYk7yYgEPaonngls
+id: user.user.field_uccsc_mailing_list
+field_name: field_uccsc_mailing_list
+entity_type: user
+bundle: user
+label: 'UCCSC Mailing List'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value:
+      subscribe: 1
+    subscribe: null
+    interest_groups: null
+default_value_callback: ''
+settings:
+  subscribe_checkbox_label: 'Subscribe to UCCSC Updates'
+  show_interest_groups: 0
+  interest_groups_hidden: 0
+  interest_groups_label: 'Interest Groups'
+  merge_fields:
+    EMAIL: mail
+    BIRTHDAY: ''
+    FNAME: field_uccsc_first_name
+    INST: field_uccsc_institution_company
+    LNAME: field_uccsc_last_name
+  unsubscribe_on_delete: 0
+field_type: mailchimp_lists_subscription

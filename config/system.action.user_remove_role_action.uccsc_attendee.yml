@@ -1,0 +1,14 @@
+uuid: 87a9dce8-d0bf-44f9-b468-d97c761e95d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.uccsc_attendee
+  module:
+    - user
+id: user_remove_role_action.uccsc_attendee
+label: 'Remove the UCCSC Attendee role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: uccsc_attendee

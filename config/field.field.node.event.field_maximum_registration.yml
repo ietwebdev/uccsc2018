@@ -1,0 +1,27 @@
+uuid: 18e8690a-00a8-4612-844b-e62ddc848458
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_maximum_registration
+    - node.type.event
+_core:
+  default_config_hash: RQ9WRWOXqbG2denSAYjWDs82RDY3GbzgGCLrAMPqEWY
+id: node.event.field_maximum_registration
+field_name: field_maximum_registration
+entity_type: node
+bundle: event
+label: 'Maximum registration'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

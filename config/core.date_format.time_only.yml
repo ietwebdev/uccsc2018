@@ -1,0 +1,10 @@
+uuid: 575da017-e4d6-4dfe-9708-5eb5999fbe75
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: eapF7F9y7jnHSj10fDdJgrDa6ZJcSCBEwPjQ_xpmBko
+id: time_only
+label: 'Time Only'
+locked: false
+pattern: 'g:ia'

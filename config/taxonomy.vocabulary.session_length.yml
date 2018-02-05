@@ -1,0 +1,11 @@
+uuid: d01be94f-5074-4302-b059-3893504bbc94
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: DBY1yVIZWFS67_41PQVH_2Im0TNITRqd4czAQ6WBNPU
+name: 'Session Length'
+vid: session_length
+description: ''
+hierarchy: 0
+weight: 0

@@ -1,0 +1,22 @@
+uuid: fa7fb9e2-91d5-4c4f-a91a-62f03510a110
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Ynw6S4MxXUlvgYzAiVUsSZaqbdAoYPiXo8cIrJIwV6s
+id: anonymous
+label: 'Anonymous user'
+weight: -10
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'access sitemap'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view field_event_date_and_time'
+  - 'view field_event_sponsors'
+  - 'view field_event_venue'
+  - 'view field_session_status'
+  - 'view sharemessages'
+  - 'view trumba spud blocks'

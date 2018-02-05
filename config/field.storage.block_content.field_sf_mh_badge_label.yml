@@ -1,0 +1,23 @@
+uuid: c15214e2-9706-4a2d-b633-734996d93f40
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: '-q3u7QAf-M9HOSH6VRKsLQMouoiBT2-WjRjxzBQxO50'
+id: block_content.field_sf_mh_badge_label
+field_name: field_sf_mh_badge_label
+entity_type: block_content
+type: string
+settings:
+  max_length: 50
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

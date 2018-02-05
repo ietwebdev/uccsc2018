@@ -1,0 +1,21 @@
+uuid: 1bcc0960-e2a9-4538-ad19-23eecf0cb82e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_venue_name
+    - node.type.venue
+_core:
+  default_config_hash: FD3syhVuGx6aQbpZZdtnL27bUKMhk4g7zG8zBR2eXc8
+id: node.venue.field_venue_name
+field_name: field_venue_name
+entity_type: node
+bundle: venue
+label: 'Venue Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

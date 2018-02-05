@@ -1,0 +1,14 @@
+uuid: 379cf85d-78b7-45be-a6ad-fd1f39e2e62d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.curriculum
+  module:
+    - user
+id: user_remove_role_action.curriculum
+label: 'Remove the Curriculum Editor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: curriculum

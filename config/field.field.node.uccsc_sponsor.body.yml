@@ -1,0 +1,24 @@
+uuid: 5fd6716d-64c3-4281-aed3-4e57ee3e9516
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.uccsc_sponsor
+  module:
+    - text
+_core:
+  default_config_hash: o8gwDutgZeAdXydwBSj8GdZAfAwoSPb6Au3ogS64qZI
+id: node.uccsc_sponsor.body
+field_name: body
+entity_type: node
+bundle: uccsc_sponsor
+label: About
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,20 @@
+uuid: 2699b5d8-a5aa-4181-b5a7-2cee4b3532ee
+name: 'UCCSC 2018 at UC Davis'
+mail: uccsc2018-chairs@ucdavis.edu
+slogan: 'August 13-15, 2018'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
+credit_info:
+  value: ''
+  format: basic_html
+uc_credits_contact: /contact
+uc_credits_privacy: 'http://ucdavis.edu/help/privacy-accessibility.html'
+mail_notification: ''

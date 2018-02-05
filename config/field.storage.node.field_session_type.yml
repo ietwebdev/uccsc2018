@@ -1,0 +1,26 @@
+uuid: e0f36494-e0cc-490b-8829-0b4a5a140ffa
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - node
+    - taxonomy
+third_party_settings:
+  field_permissions:
+    permission_type: public
+_core:
+  default_config_hash: PGlCfcGMXOL9V2R5sntaQYcRbl95XN1SvyY96aTHIrA
+id: node.field_session_type
+field_name: field_session_type
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

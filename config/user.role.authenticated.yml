@@ -1,0 +1,35 @@
+uuid: 2d4747f3-d98c-48a3-9216-b67701bc68ea
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: IYAG6AuVIv-per1cKks37J_uT3o4Vx91QobKtHlNIGI
+id: authenticated
+label: 'Authenticated user'
+weight: -9
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'access sitemap'
+  - 'access user profiles'
+  - 'cancel account'
+  - 'change own username'
+  - 'create field_session_prior_experience'
+  - 'create session content'
+  - 'edit own field_session_prior_experience'
+  - 'edit own session content'
+  - 'flag add_to_schedule'
+  - 'search content'
+  - 'unflag add_to_schedule'
+  - 'use text format basic_html'
+  - 'use text format restricted_html'
+  - 'view field_event_date_and_time'
+  - 'view field_event_sponsors'
+  - 'view field_event_venue'
+  - 'view field_session_status'
+  - 'view own field_session_prior_experience'
+  - 'view own unpublished content'
+  - 'view sharemessages'
+  - 'view trumba spud blocks'

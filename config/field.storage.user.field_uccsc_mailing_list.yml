@@ -1,0 +1,28 @@
+uuid: c2384f5d-7673-4b28-b1d6-442a739cd5e1
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - mailchimp_lists
+    - user
+third_party_settings:
+  field_permissions:
+    permission_type: public
+_core:
+  default_config_hash: 0jnHgA8p35MVL-VzDLM3MeIYeipEGfQqBm3E1Dk7IxQ
+id: user.field_uccsc_mailing_list
+field_name: field_uccsc_mailing_list
+entity_type: user
+type: mailchimp_lists_subscription
+settings:
+  mc_list_id: c2682df50c
+  double_opt_in: 0
+  send_welcome: 0
+module: mailchimp_lists
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

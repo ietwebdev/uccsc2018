@@ -1,0 +1,21 @@
+uuid: 78068604-0026-40a9-9724-32cf2cefe9ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_room_number_name
+    - node.type.venue
+_core:
+  default_config_hash: shrVJlXEdX7whqft9rvWSngdlRYNleSdBaxHcZU33Ck
+id: node.venue.field_room_number_name
+field_name: field_room_number_name
+entity_type: node
+bundle: venue
+label: 'Room Number / Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

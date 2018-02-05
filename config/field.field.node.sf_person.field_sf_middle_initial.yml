@@ -1,0 +1,21 @@
+uuid: 1e2fc635-8034-446b-924b-829e2a1eb308
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sf_middle_initial
+    - node.type.sf_person
+_core:
+  default_config_hash: 6AG2U7M2eJ6ntvJ-PD6U7ULYQR8uCGp4nKnwPParHVs
+id: node.sf_person.field_sf_middle_initial
+field_name: field_sf_middle_initial
+entity_type: node
+bundle: sf_person
+label: 'Middle Initial'
+description: 'Please include punctuation as appropriate, example: John A. MacDonald, Charles P.A.G. Windsor, or spell out the middle name(s).'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

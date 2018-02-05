@@ -1,0 +1,19 @@
+uuid: 007ed6cc-8628-459d-97e0-fbdec27560bc
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: T6KE2lja3wTMpPJhWwm2iwGOkECbErl6tCAlVanmdSE
+name: 'UCCSC Event'
+type: event
+description: "An <em>Event</em> is a summit, meeting, workshop, party, or other non-session activity.\r\n"
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

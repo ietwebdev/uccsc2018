@@ -1,0 +1,8 @@
+uuid: 7c434aa2-89af-4f0b-8659-38a926198947
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: b6sKoTE_F3bSyMJzQFV_AXrNR9J1faBx3xyq8RHMD0g
+id: development
+label: Development

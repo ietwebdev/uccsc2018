@@ -1,0 +1,11 @@
+uuid: ca27bc1d-e0eb-4364-b1e0-b9e23bcba196
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: h386tBygE8-oGtNSIQMp5CjFfz8sx0T_dKFexCsLYm0
+name: 'Session Track'
+vid: session_track
+description: ''
+hierarchy: 0
+weight: 0

@@ -1,0 +1,14 @@
+uuid: 96ac62cc-4ada-4ac4-9d0b-0c2541c61871
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 6LvFS9I5Rdny8AS95hw0CKfHsmDn3KAcLsCR1psnwjk
+id: uccsc_attendee
+label: 'UCCSC Attendee'
+weight: -1
+is_admin: null
+permissions:
+  - 'access user contact forms'
+  - 'create event content'
+  - 'edit own event content'

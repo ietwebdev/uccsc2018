@@ -1,0 +1,31 @@
+uuid: 95aecf03-f4e0-4640-be06-23848041886a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_sponsors
+    - node.type.event
+    - node.type.uccsc_sponsor
+_core:
+  default_config_hash: hR1_oReq2RUOJOvi5ZXAikNnkMdrtX3ZKxq3P4XEA-s
+id: node.event.field_event_sponsors
+field_name: field_event_sponsors
+entity_type: node
+bundle: event
+label: 'Event Sponsor(s)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      uccsc_sponsor: uccsc_sponsor
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

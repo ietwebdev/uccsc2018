@@ -1,0 +1,22 @@
+uuid: ba3c176b-20b1-4551-b9f0-8254c55f78f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_uccsc_first_name
+  module:
+    - user
+_core:
+  default_config_hash: UWdghhcuaop4mjpPM3kODY8OYwNpXkQmXwALISuaaEY
+id: user.user.field_uccsc_first_name
+field_name: field_uccsc_first_name
+entity_type: user
+bundle: user
+label: 'First Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

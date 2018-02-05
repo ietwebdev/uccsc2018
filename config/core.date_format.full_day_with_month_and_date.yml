@@ -1,0 +1,10 @@
+uuid: d860ad83-af6d-4186-83b9-c501ab194861
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 7-hFeyC7UmmuJaP4krfa0VIro_o6FF0F1LNSZZReQJ4
+id: full_day_with_month_and_date
+label: 'Full Day with Month and Date'
+locked: false
+pattern: 'l, F d'

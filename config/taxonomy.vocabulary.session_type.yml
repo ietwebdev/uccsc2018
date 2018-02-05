@@ -1,0 +1,11 @@
+uuid: 3587d8c8-c9dc-491a-8a63-68530855cef6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 8I47-yQad5ZLAD_YZaHr5X2HMMTi0H19Tv2ugBJYFJY
+name: 'Session Type'
+vid: session_type
+description: 'Program Format'
+hierarchy: 0
+weight: 0

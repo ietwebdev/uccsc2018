@@ -1,0 +1,31 @@
+uuid: 1cd72453-c00a-483d-aa1f-4569875b5484
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sf_related_photo_gallery
+    - node.type.sf_article
+    - node.type.sf_photo_gallery
+_core:
+  default_config_hash: Gux7bLht5XioBwqAk7QqQW4yV7Tfwg1wQfVRBGBR9iQ
+id: node.sf_article.field_sf_related_photo_gallery
+field_name: field_sf_related_photo_gallery
+entity_type: node
+bundle: sf_article
+label: 'Related Photo Gallery'
+description: 'Type in the name of a photo gallery on your site you would like to be displayed on the same page as this article. '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      sf_photo_gallery: sf_photo_gallery
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

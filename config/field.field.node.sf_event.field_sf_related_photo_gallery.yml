@@ -1,0 +1,30 @@
+uuid: dd3d7067-4c54-4dd5-8624-7a6cd0c9104d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sf_related_photo_gallery
+    - node.type.sf_event
+    - node.type.sf_photo_gallery
+_core:
+  default_config_hash: VRJd66NzIvupFX3s_3oo5yK6cZPsopDux6v9N2DV4Gg
+id: node.sf_event.field_sf_related_photo_gallery
+field_name: field_sf_related_photo_gallery
+entity_type: node
+bundle: sf_event
+label: 'Related Photo Gallery'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      sf_photo_gallery: sf_photo_gallery
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

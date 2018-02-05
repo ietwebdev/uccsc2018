@@ -1,0 +1,13 @@
+uuid: f2aec8bd-ac6a-4af0-82d2-c1dfa60ea633
+langcode: en
+status: false
+dependencies:
+  module:
+    - sitefarm_custom_actions
+_core:
+  default_config_hash: aMxvh0GLr6wmS3p945rMoVl2pv9P0QutYWJgjqJzj38
+id: sitefarm_custom_actions_select_option
+label: 'Select an Option'
+type: node
+plugin: sitefarm_custom_actions_select_option
+configuration: {  }

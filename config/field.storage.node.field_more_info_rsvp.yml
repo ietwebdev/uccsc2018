@@ -1,0 +1,21 @@
+uuid: c8aafcf3-6139-47a4-8c94-60c473fecd7f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: hEr6BrANZfZYD3i9CB8iLEPH7LdMUc7_pdKS1L6WpmA
+id: node.field_more_info_rsvp
+field_name: field_more_info_rsvp
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

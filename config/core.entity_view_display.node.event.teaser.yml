@@ -1,0 +1,44 @@
+uuid: b8e9e7b3-896b-4ad7-ba8e-ce5ce3007ecb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.event.field_event_agenda
+    - field.field.node.event.field_event_date_and_time
+    - field.field.node.event.field_event_description
+    - field.field.node.event.field_event_image
+    - field.field.node.event.field_event_sponsors
+    - field.field.node.event.field_event_type
+    - field.field.node.event.field_event_venue
+    - field.field.node.event.field_maximum_registration
+    - field.field.node.event.field_more_info_rsvp
+    - field.field.node.event.field_sold_out
+    - node.type.event
+  module:
+    - user
+_core:
+  default_config_hash: Nms9ID01CdLlp-a3VCTdNhz8YzIDQmn3Plw-YErPamM
+id: node.event.teaser
+targetEntityType: node
+bundle: event
+mode: teaser
+content:
+  flag_add_to_schedule:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_event_agenda: true
+  field_event_date_and_time: true
+  field_event_description: true
+  field_event_image: true
+  field_event_sponsors: true
+  field_event_type: true
+  field_event_venue: true
+  field_maximum_registration: true
+  field_more_info_rsvp: true
+  field_sold_out: true
+  links: true
+  summit_attendees_entity_view_1: true
